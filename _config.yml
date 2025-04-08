@@ -65,10 +65,17 @@ exclude:
 defaults:
   -
     scope:
-        path: ""
-        type: "posts"
+      path: ""
+      type: "posts"
     values:
       layout: post
+  - 
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      show_title: true
+
 
 show_drafts: true
 
