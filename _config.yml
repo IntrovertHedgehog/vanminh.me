@@ -18,21 +18,49 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Your awesome title
-email: your-email@example.com
+title: vanminh.me
+email: vanminhswe@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  My personal updates on stuff that nobody should
+  care about unless I died and you are finding out why
+  (Renee did it)
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+url: "https://blog.vanminh.me" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: HedghogBrr
+github_username:  IntrovertHedgehog
 
 # Build settings
 theme: minima
 plugins:
   - jekyll-feed
+
+minima:
+  skin: solarized-light
+  social_links:
+    - title: Me on GitHub
+      icon: github
+      url: "https://www.github.com/IntrovertHedgehog"
+    - title: Me on X
+      icon: x-twitter
+      url: "https://x.com/HedghogBrr"
+    - title: Me on Facebook
+      icon: facebook
+      url: "https://www.facebook.com/Fillbrick"
+    - title: Me on Linkedin
+      icon: linkedin
+      url: "https://www.linkedin.com/in/hedgehog0409"
+    - title: Me on CodeForces
+      icon: code
+      url: "https://codeforces.com/profile/larby2409"
+  nav_pages:
+    - about.md
+
+author:
+  name: Le Van Minh
+  email: vanminhswe@gmail.com
+
+exclude:
+  - .tmp
 
 # Exclude from processing.
 # The following items will not be processed, by default.

@@ -1,0 +1,34 @@
+---
+---
+
+@import
+  "minima/skins/{{ site.minima.skin | default: 'classic' }}",
+  "minima/initialize";
+
+
+div.highlight {
+  display: flex;
+  justify-content: space-between;
+  background-color: $code-background-color;
+}
+
+div.clip-container {
+  display: block;
+}
+
+div.clip-btn {
+  position: relative;
+  background-color: transparent;
+  margin: 2px;
+  cursor: pointer;
+  padding: 2px 6px 2px 6px;
+  border-radius: 6px;
+}
+
+div.clip-btn:hover {
+  background-color: $brand-color-light;
+}
+
+pre.highlight {
+
+}
