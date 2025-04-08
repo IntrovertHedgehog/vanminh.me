@@ -1,0 +1,44 @@
+div.highlight {
+  display: flex;
+  justify-content: space-between;
+  background-color: $code-background-color;
+}
+
+div.clip-container {
+  display: block;
+}
+
+div.clip-btn {
+  position: relative;
+  background-color: transparent;
+  margin: 2px;
+  cursor: pointer;
+  padding: 2px 6px 2px 6px;
+  border-radius: 6px;
+}
+
+div.clip-btn:hover {
+  background-color: $brand-color-light;
+}
+
+div.about-heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-heading h3, .about-heading h5 {
+  margin-top: 0px;
+  margin-bottom: 8px;
+}
+
+img.profile {
+  max-width: min(50%, 160px);
+  border-radius: 50%;
+}
+
+img {
+  display: block;
+  margin: auto;
+  border-radius: 10px;
+}
