@@ -23,7 +23,7 @@ email: vanminhswe@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   My personal updates on stuff that nobody should
   care about unless I died and you are finding out why
-  (Renee did it)
+  (a hater did it)
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://blog.vanminh.me" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: HedghogBrr
@@ -61,6 +61,16 @@ author:
 
 exclude:
   - .tmp
+
+defaults:
+  -
+    scope:
+        path: ""
+        type: "posts"
+    values:
+      layout: post
+
+show_drafts: true
 
 # Exclude from processing.
 # The following items will not be processed, by default.
