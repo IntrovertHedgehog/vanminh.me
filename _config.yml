@@ -61,6 +61,7 @@ author:
 
 exclude:
   - .tmp
+  - README.md
 
 defaults:
   -
